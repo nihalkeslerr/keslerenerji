@@ -87,6 +87,10 @@ a.filled-button:hover {
 	color: #1e1e1e;
 	margin-bottom: 15px;
 }
+img.logo {
+    width: 200px;
+}
+
 
 .products-heading {
 	background-image: url(../images/products-heading.jpg);
@@ -690,8 +694,7 @@ footer .inner-content p a {
 /* Team Members */
 
 .team-members {
-	margin-top: 100px;
-}
+    margin: 100px 0px;}
 
 .team-member {
 	border: 1px solid #eee;
@@ -1086,4 +1089,22 @@ footer .inner-content p a {
 		height: initial ; 
 	  }
 
+}
+
+ul.referencesList {
+    margin-top: 14px;
+}
+ul.referencesList li {
+    /* list-style: inside; */
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #0049ae;
+}
+ul.referencesList li ul li {
+    list-style: inside;
+    margin-left: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 5px;
 }
